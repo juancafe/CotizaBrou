@@ -1,10 +1,5 @@
 [
     {
-        "Moneda": "",
-        "Compra": "Compra",
-        "Venta": "Venta"
-    },
-    {
         "Moneda": "Dólar",
         "Compra": "41,35000",
         "Venta": "43,95000"
