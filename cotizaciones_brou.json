@@ -1,57 +1,51 @@
-[
-    {
-        "Moneda": "",
-        "Compra": "",
-        "Venta": "Compra"
-    },
     {
         "Moneda": "Dólar",
-        "Compra": "",
-        "Venta": "41,35000"
+        "Compra": "41,35000",
+        "Venta": "43,95000"
     },
     {
         "Moneda": "Dólar eBROU",
-        "Compra": "",
-        "Venta": "41,85000"
+        "Compra": "41,85000",
+        "Venta": "43,45000"
     },
     {
         "Moneda": "Euro",
-        "Compra": "",
-        "Venta": "41,84000"
+        "Compra": "41,84000",
+        "Venta": "46,88000"
     },
     {
         "Moneda": "Peso Argentino",
-        "Compra": "",
-        "Venta": "0,02400"
+        "Compra": "0,02400",
+        "Venta": "0,20000"
     },
     {
         "Moneda": "Real",
-        "Compra": "",
-        "Venta": "6,75000"
+        "Compra": "6,75000",
+        "Venta": "8,45000"
     },
     {
         "Moneda": "Libra Esterlina",
-        "Compra": "",
-        "Venta": "50,73000"
+        "Compra": "50,73000",
+        "Venta": "57,36000"
     },
     {
         "Moneda": "Franco Suizo",
-        "Compra": "",
-        "Venta": "44,97000"
+        "Compra": "44,97000",
+        "Venta": "49,56000"
     },
     {
         "Moneda": "Guaraní",
-        "Compra": "",
-        "Venta": "0,00511"
+        "Compra": "0,00511",
+        "Venta": "0,00567"
     },
     {
         "Moneda": "Unidad Indexada",
-        "Compra": "",
-        "Venta": "-"
+        "Compra": "-",
+        "Venta": "6,26160"
     },
     {
         "Moneda": "Onza Troy De Oro",
-        "Compra": "",
-        "Venta": "117.143,30950"
+        "Compra": "117.143,30950",
+        "Venta": "126.797,94750"
     }
 ]
