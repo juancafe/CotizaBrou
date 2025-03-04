@@ -1,4 +1,4 @@
 # cotizaBrou
-Obtengo y despliego las cotizacion de las principales monedas publicadas.
+Obtengo y despliego la cotizacion de las principales monedas de Plaza Uruguaya 2025.
 
 
