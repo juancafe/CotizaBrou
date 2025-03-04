@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizaciones del BROU</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // URL del JSON (ajústala según dónde lo alojes)
+            const jsonURL = "cotizaciones_brou.json"; // Cambia esto si está en otro servidor
+
+            // Obtener el JSON y mostrarlo en la tabla
+            fetch(jsonURL)
+                .then(response => response.json())
+                .then(data => {
+                    let tableBody = document.getElementById("tabla-body");
+                    data.forEach(item => {
+                        let row = `<tr>
+                            <td>${item.Moneda}</td>
+                            <td>${item.Compra}</td>
+                            <td>${item.Venta}</td>
+                        </tr>`;
+                        tableBody.innerHTML += row;
+                    });
+                })
+                .catch(error => console.error("Error cargando JSON:", error));
+        });
+    </script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        table { width: 50%; margin: auto; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 8px; text-align: center; }
+        th { background-color: #4CAF50; color: white; }
+    </style>
+</head>
+<body>
+    <h2>Cotizaciones del BROU</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Moneda</th>
+                <th>Compra</th>
+                <th>Venta</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-body">
+            <!-- Aquí se insertarán los datos dinámicamente -->
+        </tbody>
+    </table>
+</body>
+</html>
